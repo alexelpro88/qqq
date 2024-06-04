@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #474a4d;
+}
+
+.logo {
+    height: 60px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+}
+
+.search-section h1 {
+    margin-right: 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.contenedor {
+    padding: 20px;
+}
+
+.chef-gallery {
+    text-align: center;
+}
+
+.chefs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.chef-card {
+    width: 200px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.chef-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}

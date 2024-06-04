@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>pagina principal</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/img/logo.jpeg" alt="Logo" class="logo">
+        <section class="search-section">
+            <h1 class="titulo">Buscar alguna Receta</h1>
+            <label for="nombre">Ingrese el plato que desea buscar</label>
+            <input type="text" id="nombre" class="for" placeholder="Ingrese la receta a buscar" required/>
+            <button onclick="buscar()">Buscar</button>
+        </section>
+    </header>
+    <main class="contenedor">
+        <section class="chef-gallery">
+            <h2> Chefs</h2>
+            <div class="chefs">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2>Contactos</h2>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.whatsapp.com" target="_blank">WhatsApp</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        </div>
+    </footer>
+    <script src="assets/js/java.js"></script>
+</body>
+</html>
